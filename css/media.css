@@ -1,0 +1,96 @@
+@media only screen
+and (max-width : 1200px) {
+  .thumbnails ul li a .inner {width: 100%;}
+  .thumbnails ul {max-width: 536px;}
+  .main_cont h2 {font-size: 42px;}
+
+  .btm2_con h2 {font-size: 99px;}
+}
+
+@media only screen
+and (max-width : 1010px) {
+  .pc-only  {display: none !important}
+  .cp-only {display: block !important}
+  .bnr_info .p2 {font-size: 45px;}
+  .bnr_info h2 {font-size: 68px;}
+
+  #middle {padding: 100px 25px;}
+  .middle_con p, .middle_con h3 {font-size: 36px;}
+  .middle_con2 .inner {max-width: 70%;}
+  .middle_con2 h3 {width: 30%}
+
+  .sticky-element {transform: none !important; padding: 0;}
+  .thumbnails {top: 0;   margin: 0;}
+  .main_cont h2 span {animation: none;   font-weight: bold;}
+  .sl_cont {height: auto;   margin: 0;}
+  .thumbnails ul {max-width: 100%;     float: none;     margin: 20px 0 0;}
+  .thumbnails ul li a h3 {width: 30%;}
+  .thumbnails ul li a .inner {max-width: 70%;}
+  .thumbnails ul li a {padding: 20px 0}
+
+  .btm2_con ul {column-count: 3; margin: 50px 0 0;}
+  .btm2_con ul li figure {height: 300px !important;}
+  .btm2_con ul li {margin: 20px 0;}
+  .btm2_con h2 {font-size: 75px;}
+
+  #bottom3 {height: auto;   padding: 0 25px;}
+  .btm3_cont {top: 0 !important;   position: relative;   width: 100%;   height: 700px;   margin: 0 0 -131px; padding: 50px;}
+  .btm3_cont a {font-size: 34px;}
+}
+
+@media only screen
+and (max-width : 800px) {
+  .bnr_info h2 {font-size: 50px;}
+  .bnr_info .p2 {font-size: 39px;}
+  .bnr_info p {font-size: 18px;}
+  #banner h3 {font-size: 36px;}
+  .bnr-h4 {font-size: 30px;}
+
+  .middle_con h2 {font-size: 49px; margin: 0}
+  .middle_con p, .middle_con h3 {font-size: 28px;   margin: 0 0 10px;}
+  .middle_con h3 span {width: 200px;top: -6px;}
+
+  .main_cont h2 {font-size: 35px;}
+
+  .btm2_con h2 {font-size: 56px;}
+
+  .btm3_cont h3 {font-size: 27px;}
+  .btm3_cont a {font-size: 26px;     width: 100%;}
+  .btm3_cont h4 {font-size: 33px;}
+}
+
+@media only screen
+and (max-width : 600px) {
+  #banner h3, .bnr-h4 {font-size: 25px;}
+  .bnr_info h2 {font-size: 26px;}
+  .bnr_info .p2 {font-size: 22px;}
+  .bnr_info p {font-size: 16px;}
+
+  .middle_con2 h3 {width: 100%;     margin: 0 0 15px;}
+  .middle_con2 .inner {max-width: 100%;}
+  .middle_con2 ul {flex-wrap: wrap;}
+  .middle_con2 ul li {width: 50%;   margin: 0 0 15px;}
+  .middle_con2 ul li ul li {margin: 0}
+  .middle_con h2 {font-size: 36px;     margin: 0 0 10px;}
+  .middle_con p, .middle_con h3 {font-size: 20px;}
+  .middle_con h3 span {width: 50px;}
+
+  .thumbnails ul li a h3 {width: 100%;     margin: 0 0 15px;}
+  .thumbnails ul li a .inner {max-width: 100%;}
+  .main_cont h2 {font-size: 26px;}
+  .main_cont h2 br {display: none}
+
+  .btm2_con ul {column-count: 2;     margin: 30px 0 0;}
+  .btm2_con h2 {font-size: 28px;}
+  .btm2_con ul li figure {height: 150px !important;}
+  .btm2_con {padding: 50px 30px;}
+
+  #bottom2 {padding: 0}
+  .btm3_cont {height: 400px;padding: 30px;}
+  .btm3_cont h3 {font-size: 18px;}
+  .btm3_cont h4 {font-size: 25px;}
+  .btm3_cont a {bottom: 30px;font-size: 14px;}
+
+  .footer_btm .wrapper {display: block}
+  .copyright {text-align: center;   margin: 0 0 20px;}
+}
